@@ -1,4 +1,4 @@
 FROM busybox:latest
 MAINTAINER Eric Taïeb Walch <teknologist@gmail.com>
-RUN mkdir /srv/exo
+RUN mkdir -p /srv/exo
 VOLUME /srv/exo
